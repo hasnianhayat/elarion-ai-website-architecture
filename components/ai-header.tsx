@@ -65,7 +65,6 @@ export function AIHeader() {
         </button>
       </nav>
 
-      {/* Mobile Navigation */}
       {mobileMenuOpen && (
         <div className="container md:hidden pb-4 space-y-3">
           <Link
