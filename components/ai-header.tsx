@@ -19,7 +19,6 @@ export function AIHeader() {
           </span>
         </Link>
 
-        {/* Desktop Navigation */}
         <div className="hidden md:flex md:items-center md:gap-6">
           <Link
             href="/ai-agents"
