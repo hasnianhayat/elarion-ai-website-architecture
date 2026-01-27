@@ -1,4 +1,3 @@
-import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -9,7 +8,6 @@ import Link from "next/link"
 export default function AdvancedAutomationPage() {
   return (
     <>
-      <SiteHeader />
       <main className="flex-1">
         {/* Hero */}
         <section className="relative overflow-hidden bg-gradient-to-br from-[#00a3a3]/15 via-background to-background border-b-2 border-[#00a3a3]/20 py-24 md:py-32">

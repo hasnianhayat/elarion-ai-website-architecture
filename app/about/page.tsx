@@ -1,5 +1,3 @@
-import { SiteHeader } from "@/components/site-header"
-import { SiteFooter } from "@/components/site-footer"
 import { AnimatedBackground } from "@/components/animated-background"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -34,7 +32,6 @@ const teamMembers = [
 export default function AboutPage() {
   return (
     <>
-      <SiteHeader />
       <main className="flex-1">
         {/* Hero */}
         <section className="relative overflow-hidden bg-gradient-to-br from-[#00a3a3]/10 via-background to-[#00a3a3]/5 border-b border-[#00a3a3]/20 py-16 md:py-24">
@@ -274,7 +271,6 @@ export default function AboutPage() {
           </div>
         </section>
       </main>
-      <SiteFooter />
     </>
   )
 }

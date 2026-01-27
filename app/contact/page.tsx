@@ -1,8 +1,7 @@
 "use client"
 
 import type React from "react"
-import { SiteHeader } from "@/components/site-header"
-import { SiteFooter } from "@/components/site-footer"
+
 import { AnimatedBackground } from "@/components/animated-background"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -34,7 +33,6 @@ export default function ContactPage() {
 
   return (
     <>
-      <SiteHeader />
       <main className="flex-1">
         {/* Hero */}
         <section className="relative overflow-hidden bg-gradient-to-br from-[#00a3a3]/10 via-background to-[#00a3a3]/5 border-b border-[#00a3a3]/20 py-16 md:py-24">
@@ -337,7 +335,6 @@ export default function ContactPage() {
           </div>
         </section>
       </main>
-      <SiteFooter />
     </>
   )
 }

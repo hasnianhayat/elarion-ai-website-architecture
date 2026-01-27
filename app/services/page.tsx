@@ -1,4 +1,3 @@
-import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -20,7 +19,6 @@ import {
 export default function ServicesPage() {
   return (
     <>
-      <SiteHeader />
       <main className="flex-1">
         {/* Hero Section - Comprehensive Services Overview */}
         <section className="relative overflow-hidden bg-gradient-to-br from-[#00a3a3]/10 via-background to-[#00a3a3]/5 border-b-2 border-[#00a3a3]/20">

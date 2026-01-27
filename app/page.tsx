@@ -1,5 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
-import { SiteFooter } from "@/components/site-footer"
+// import { SiteHeader } from "@/components/site-header"
 import { AnimatedBackground } from "@/components/animated-background"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -22,7 +21,7 @@ import {
 export default function HomePage() {
   return (
     <>
-      <SiteHeader />
+      {/* <SiteHeader /> */}
       <main className="flex-1">
         {/* Hero Section with Enhanced Animated Background */}
         <section className="relative overflow-hidden bg-gradient-to-br from-[#00a3a3]/10 via-background to-[#00a3a3]/5">
@@ -465,7 +464,6 @@ export default function HomePage() {
           </div>
         </section>
       </main>
-      <SiteFooter />
     </>
   )
 }
