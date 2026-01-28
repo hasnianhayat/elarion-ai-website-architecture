@@ -45,7 +45,6 @@ export default function RootLayout({
           <SiteHeader/>
         <div className="px-[10px] mx-auto">
         {children}
-
         </div>
         <SiteFooter/>
         <Analytics />
